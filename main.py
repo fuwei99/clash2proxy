@@ -13,7 +13,7 @@ from urllib.parse import urlsplit
 
 
 PROXY_ROOT = Path(__file__).resolve().parent
-ROOT = PROXY_ROOT.parent
+ROOT = PROXY_ROOT
 if str(ROOT) not in sys.path:
     sys.path.insert(0, str(ROOT))
 
