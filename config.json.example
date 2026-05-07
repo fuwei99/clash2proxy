@@ -1,0 +1,10 @@
+{
+  "port": 7860,
+  "subscription_urls": [
+    "https://example.com/api/v1/client/subscribe?token=YOUR_TOKEN"
+  ],
+  "rotate_every": 1,
+  "proxy_password": "",
+  "admin_password": "change-me",
+  "allow_hk_sg_nodes": false
+}
